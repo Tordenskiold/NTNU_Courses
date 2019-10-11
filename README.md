@@ -1,6 +1,6 @@
 # NTNU Courses
 
-NTNU CS-courses, by Niklas Sølvberg
+NTNU IT-courses, by Niklas Sølvberg
 
 ## Courses
 
