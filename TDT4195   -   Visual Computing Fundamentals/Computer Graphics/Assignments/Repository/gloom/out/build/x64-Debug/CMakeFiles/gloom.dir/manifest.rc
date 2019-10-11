@@ -1,0 +1,2 @@
+#pragma code_page(65001)
+1 /* CREATEPROCESS_MANIFEST_RESOURCE_ID */ 24 /* RT_MANIFEST */ "N:/NTNU/TDT4195   -   Visual Computing Fundamentals/Assignments/Assignment 1 2 3/gloom/out/build/x64-Debug/CMakeFiles/gloom.dir/embed.manifest"

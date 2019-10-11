@@ -1,0 +1,8 @@
+N:/NTNU/TDT4195   -   Visual Computing Fundamentals/Assignments/Assignment 1 2 3/gloom/out/build/x64-Debug/CMakeFiles/gloom.dir
+N:/NTNU/TDT4195   -   Visual Computing Fundamentals/Assignments/Assignment 1 2 3/gloom/out/build/x64-Debug/CMakeFiles/edit_cache.dir
+N:/NTNU/TDT4195   -   Visual Computing Fundamentals/Assignments/Assignment 1 2 3/gloom/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir
+N:/NTNU/TDT4195   -   Visual Computing Fundamentals/Assignments/Assignment 1 2 3/gloom/out/build/x64-Debug/gloom/vendor/glfw/CMakeFiles/edit_cache.dir
+N:/NTNU/TDT4195   -   Visual Computing Fundamentals/Assignments/Assignment 1 2 3/gloom/out/build/x64-Debug/gloom/vendor/glfw/CMakeFiles/rebuild_cache.dir
+N:/NTNU/TDT4195   -   Visual Computing Fundamentals/Assignments/Assignment 1 2 3/gloom/out/build/x64-Debug/gloom/vendor/glfw/src/CMakeFiles/rebuild_cache.dir
+N:/NTNU/TDT4195   -   Visual Computing Fundamentals/Assignments/Assignment 1 2 3/gloom/out/build/x64-Debug/gloom/vendor/glfw/src/CMakeFiles/glfw.dir
+N:/NTNU/TDT4195   -   Visual Computing Fundamentals/Assignments/Assignment 1 2 3/gloom/out/build/x64-Debug/gloom/vendor/glfw/src/CMakeFiles/edit_cache.dir

@@ -1,0 +1,21 @@
+# ninja log v5
+15	1633	591285513	gloom/vendor/glfw/src/CMakeFiles/glfw.dir/init.c.obj	3186a84fdefac26e
+33	1704	591285514	gloom/vendor/glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.obj	ac0e9dbf65c144b7
+25	1712	591285514	gloom/vendor/glfw/src/CMakeFiles/glfw.dir/input.c.obj	e3fe11d8ce9455af
+20	1719	591285514	gloom/vendor/glfw/src/CMakeFiles/glfw.dir/context.c.obj	b3832a2297c40e5
+29	1727	591285514	gloom/vendor/glfw/src/CMakeFiles/glfw.dir/monitor.c.obj	461bcda11cb7e0cb
+60	1753	591285514	gloom/vendor/glfw/src/CMakeFiles/glfw.dir/win32_time.c.obj	7fbc9156b6d4ff92
+42	1756	591285514	gloom/vendor/glfw/src/CMakeFiles/glfw.dir/window.c.obj	13cc77f9c04707a0
+52	1762	591285514	gloom/vendor/glfw/src/CMakeFiles/glfw.dir/win32_joystick.c.obj	f8050e353fd922fc
+55	1764	591285514	gloom/vendor/glfw/src/CMakeFiles/glfw.dir/win32_window.c.obj	6cd40c7f6c07dccd
+47	1765	591285514	gloom/vendor/glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj	4c985c1dec94c496
+11	1868	591285514	CMakeFiles/gloom.dir/gloom/vendor/glad/src/glad.c.obj	3589e8e71441f900
+7	1937	591285514	CMakeFiles/gloom.dir/gloom/src/main.cpp.obj	3f0f7c3e1293627a
+1633	5106	591285517	gloom/vendor/glfw/src/CMakeFiles/glfw.dir/win32_thread.c.obj	5a74328d88614b06
+1	5192	591285517	CMakeFiles/gloom.dir/gloom/src/program.cpp.obj	c0d8b1e554c8f91d
+38	5198	591285517	gloom/vendor/glfw/src/CMakeFiles/glfw.dir/vulkan.c.obj	be1dcac7dc2687fa
+1704	5200	591285517	gloom/vendor/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.obj	af9eced09ab59fed
+1720	5201	591285517	gloom/vendor/glfw/src/CMakeFiles/glfw.dir/egl_context.c.obj	4daabc4259f39706
+1712	5202	591285517	gloom/vendor/glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj	cfda3878f24bb197
+5202	5424	591285517	gloom/vendor/glfw/src/glfw3.lib	dca1acdf8c41766d
+5424	6105	591285518	gloom/gloom.exe	5792ece4418410c1
