@@ -1,0 +1,26 @@
+h1 {
+	font-family: Courier;
+}
+
+h2 {
+	font-family: Courier;
+}
+
+
+
+body {
+	background-color: orange;
+}
+
+
+
+p {
+	font-family: Times, Helvetica;
+}
+
+
+
+img {
+	max-width: 150px;
+	border: 2px solid #000000;
+}

@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: white;
+  font-family: arial, sans-serif;
+}
+
+#screen {
+  position: relative;
+}
+
+video {
+  height: auto;
+  width: 100%;
+}
+  
+#title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#title > img {
+  width: 100%;
+}
+
+article {
+  margin: 50px 10% 0px 10%;
+}
+
+p {
+  color: black;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+
+
+img {
+  height: auto;
+  width: 100%;
+}
+
+.image {
+  display: none;
+}
+
+@media screen and (max-device-width: 960px) {
+  .video {
+    display: none;
+  }
+  .image {
+    display: block;
+  }
+}

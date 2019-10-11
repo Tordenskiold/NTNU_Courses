@@ -1,0 +1,17 @@
+    Questions
+
+
+    1 Q What is the difference between position: absolute
+        and position: fixed ?
+      A The difference is that position: absolute makes an
+        element position relative to its closest parent,
+        while position: fixed makes an element position
+        relative ot the browser window.
+
+    2 Q With CSS3, how do we access the third element
+        within another element?
+      A We can access the third element by using
+        nth-child(3). Example: 
+        ul:nth-child(3) {
+            /* style the third element of the ul here */
+        }
