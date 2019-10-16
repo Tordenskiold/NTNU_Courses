@@ -1,0 +1,40 @@
+	Questions
+
+
+	1 Q Why does the following expression 0.1 + 0.2 === 0.3
+		evaluate to false in JavaScript?
+	  A Because the floating points have to be stored in
+	  	binary, 0.1 + 0.2 will give an approximation of
+	  	0.3, and this is not guarranteed to be exactly 0.3.
+	  	0.1 + 0.2 does not evaluate to a floating point
+	  	that is clean to store in binary, and thus 0.1 +
+	  	0.2 simply isn't equal to 0.3, so naturally 0.1 +
+	  	0.2 === 0.3 evaluates to false.
+
+  	2 Q What does the method attribute on a form element
+  		decide?
+  	  A It decides what HTTP method should be used to send
+  	  	data while submitting the form.
+
+	3 Q Explain why the form fields appear in the URL when
+		the method on form element is changed to GET.
+	  A After submitting the form, the GET method makes the
+	  	form values visible in the address bar, while the
+	  	POST method does not make these values visible.
+	  	Changing to GET will thus make the form field
+	  	values visible.
+
+	4 Q Why is it considered bad practice to only validate
+		form input with HTML5 and/or JavaScript?
+	  A You should not rely on HTML5 and/or JavaScript for
+	  	all validation. Trusting your UI and scripts may
+	  	lead to potential attackers sending data for you to
+	  	store server-side that is malicious. Validation
+	  	server-side in addition to the useful client-side
+	  	validation will be the last (and possibly also
+	  	only) defence against an attacker.
+
+	5 Q When is it appropriate to use textarea over input?
+	  A It is appropriate when the user would want to write
+	  	several lines of text, as input text hold on line,
+	  	and textarea may have multiple lines.

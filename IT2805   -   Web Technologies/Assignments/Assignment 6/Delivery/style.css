@@ -1,0 +1,38 @@
+form {
+	padding: 60px 0 60px 100px;
+	display: block;
+	font-weight: bold;
+}
+
+input {
+	margin: 6px 0 12px 32px;
+	font-weight: lighter;
+}
+
+.input_radio_top {
+	margin-top: 4px;
+	margin-bottom: 0;
+	font-weight: lighter;
+}
+
+.input_radio_bot {
+	margin-top: 0;
+	margin-bottom: 16px;
+}
+
+.notbold {
+	font-weight: normal;
+	margin-left: 12px;
+}
+
+input[type="text"] {
+	width: 240px;
+}
+
+input[type="submit"] {
+	margin-left: 0;
+}
+
+.money {
+	width: 100px;
+}
