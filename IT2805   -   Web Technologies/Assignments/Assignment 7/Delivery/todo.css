@@ -1,0 +1,51 @@
+body, input {
+	font-family: "Courier New", Courier, monospace;
+	box-sizing: border-box;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+h1 {
+	font-size: 42px;
+}
+
+h1, #input, input, #output {
+	text-align: center;
+}
+
+#output {
+	margin-top: 60px;
+}
+
+ul {
+	margin-top: 30px;
+	padding: 0;
+}
+
+ul li {
+	cursor: pointer;
+	position: relative;
+	padding: 6px 8px 6px 60px;
+	background: #eee;
+	transition: 0.3s;
+	margin-top: 6px;
+}
+
+ul li.checked {
+	background: #777;
+	color: #000;
+	text-decoration: line-through;
+}
+
+ul li.checked::before {
+	content: '';
+	position: absolute;
+	border-color: #0f0;
+	border-style: solid;
+	border-width: 0 2px 2px 0;
+	top: 5px;
+	left: 25px;
+	transform: rotate(45deg);
+	height: 15px;
+	width: 7px;
+}
