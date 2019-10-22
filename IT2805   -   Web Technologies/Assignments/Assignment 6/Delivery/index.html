@@ -2,46 +2,46 @@
 
 <html lang="en">
 
-    <head>
-        <title>Tax form</title>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" type="text/css" href="style.css">
-    </head>
+	<head>
+		<title>Tax form</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
 
-    <body>
-        <form action="http://folk.ntnu.no/michaedm/norwegian-tax-administration/receive.php" method="post" id="form">
-        	Real name:<br>
-        	<input type="text" name="name" required><br>
-        	Gender:<br>
-        	<input type="radio" name="gender" value="Male" class="input_radio_top" required><span class="notbold">Male</span><br>
-        	<input type="radio" name="gender" value="Female" class="input_radio_bot" required><span class="notbold">Female</span><br>
-        	E-mail:<br>
-        	<input type="text" name="email" required><br>
-        	Birthdate:<br>
-        	<input type="date" name="birthdate" required><br>
-        	Hero name:<br>
-        	<input type="text" name="hero" required><br>
-        	Do you wear spandex?<br>
-        	<input type="checkbox" name="spandex"><span class="notbold">Of course</span><br>
-        	Strength:<br>
-        	<input type="number" name="strength" min="1" max="10" step="1" value="5" required><br>
-        	Speed:<br>
-        	<input type="number" name="speed" min="1" max="10" step="1" value="5" required><br>
-        	Intelligence:<br>
-        	<input type="number" name="intelligence" min="1" max="10" step="1" value="5" required><br>
+	<body>
+		<form action="http://folk.ntnu.no/michaedm/norwegian-tax-administration/receive.php" method="post" id="form">
+			Real name:<br>
+			<input type="text" name="name" required><br>
+			Gender:<br>
+			<input type="radio" name="gender" value="Male" class="input_radio_top" required><span class="notbold">Male</span><br>
+			<input type="radio" name="gender" value="Female" class="input_radio_bot" required><span class="notbold">Female</span><br>
+			E-mail:<br>
+			<input type="text" name="email" required><br>
+			Birthdate:<br>
+			<input type="date" name="birthdate" required><br>
+			Hero name:<br>
+			<input type="text" name="hero" required><br>
+			Do you wear spandex?<br>
+			<input type="checkbox" name="spandex"><span class="notbold">Of course</span><br>
+			Strength:<br>
+			<input type="number" name="strength" min="1" max="10" step="1" value="5" required><br>
+			Speed:<br>
+			<input type="number" name="speed" min="1" max="10" step="1" value="5" required><br>
+			Intelligence:<br>
+			<input type="number" name="intelligence" min="1" max="10" step="1" value="5" required><br>
 
-        	Income<br>
-        	<input type="number" name="income" min="0" step="1" value="0" class="money" required onkeyup="update(this, document.forms['form'].elements['wealth'], document.forms['form'].elements['tax'])"><br>
-        	Wealth<br>
-        	<input type="number" name="wealth" min="0" step="1" value="0" class="money" required onkeyup="update(document.forms['form'].elements['income'], this, document.forms['form'].elements['tax'])"><br>
-        	Tax<br>
-        	<input type="number" name="tax" class="money" disabled><br>
+			Income<br>
+			<input type="number" name="income" min="0" step="1" value="0" class="money" required onkeyup="update(this, document.forms['form'].elements['wealth'], document.forms['form'].elements['tax'])"><br>
+			Wealth<br>
+			<input type="number" name="wealth" min="0" step="1" value="0" class="money" required onkeyup="update(document.forms['form'].elements['income'], this, document.forms['form'].elements['tax'])"><br>
+			Tax<br>
+			<input type="number" name="tax" class="money" disabled><br>
 
-        	<input type="submit" value="Submit tax form">
-        </form>
+			<input type="submit" value="Submit tax form">
+		</form>
 
-        <script src="script.js"></script>
-    </body>
+		<script src="script.js"></script>
+	</body>
 
 </html>
