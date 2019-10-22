@@ -1,63 +1,54 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
 
+  	<head>
+    	<meta charset="utf-8">
+    	<title>IT2805 assignment 5: JavaScript introduction</title>
 
+    	<style>
+      		.box{
+		        /* Sets the size and position of each box */
+		        width: 200px;
+		        height: 200px;
+		        background-color: #185D8B;
+		        margin: 10px;
 
-  <head>
-    <meta charset="utf-8">
-    <title>IT2805 assignment 5: JavaScript introduction</title>
+		        /* Sets the font within each box*/
+		        color: #fff;
+		        font-family: Helvetica, Arial, sans-serif;
+		        text-align: center;
+		        line-height: 200px;
+		        font-size: 100px;
+			}
 
-    <style>
-      .box{
-        /* Sets the size and position of each box */
-        width: 200px;
-        height: 200px;
-        background-color: #185D8B;
-        margin: 10px;
+	      	.buttons{
+	        	width: 200px;
+	        	margin: 10px;
+	        	text-align: center;
+	      	}
+    	</style>
+  	</head>
 
-        /* Sets the font within each box*/
-        color: #fff;
-        font-family: Helvetica, Arial, sans-serif;
-        text-align: center;
-        line-height: 200px;
-        font-size: 100px;
-      }
+  	<body>
+	    <h1 id='title'></h1>
 
-      .buttons{
-        width: 200px;
-        margin: 10px;
-        text-align: center;
-      }
-    </style>
+	    <h2>Part 5</h2>
+	    
+	    <div class='buttons'>
+	      	<button onclick="changeDisplay()"> Display: none </button>
+	      	<button onclick="changeVisibility()"> Visibility: hidden </button>
+	      	<button onclick="reset()"> Reset </button>
+	    </div>
+	    <div class='box' id='magic'>1</div>
+	    <div class='box'>2</div>
 
-  </head>
+	    <h2>Part 6</h2>
+	    <ul id='tech'></ul>
 
-
-
-  <body>
-
-    <h1 id='title'></h1>
-
-    <h2>Part 5</h2>
-    <div class='buttons'>
-      <button onclick="changeDisplay()"> Display: none </button>
-      <button onclick="changeVisibility()"> Visibility: hidden </button>
-      <button onclick="reset()"> Reset </button>
-    </div>
-    <div class='box' id='magic'> 1 </div>
-    <div class='box'> 2 </div>
-
-    <h2>Part 6</h2>
-    <ul id='tech'>
-    </ul>
-
-    <script src="script.js"></script>
-    <!-- I would include it here, because this makes it so that
-    the DOM will be parsed by the time we need to execute some JS. -->
-
-  </body>
-
-
+	    <script src="script.js"></script>
+	    <!-- I would include it here, because this makes it so that
+	    the DOM will be parsed by the time we need to execute some JS. -->
+  	</body>
 
 </html>
